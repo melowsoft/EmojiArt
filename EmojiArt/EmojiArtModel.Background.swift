@@ -16,7 +16,7 @@ extension EmojiArtModel {
         var url: URL? {
             switch self {
             case .url(let url): return url
-            default: return nil
+            default: return nil 
             }
         }
         
@@ -28,3 +28,4 @@ extension EmojiArtModel {
         }
     }
 }
+

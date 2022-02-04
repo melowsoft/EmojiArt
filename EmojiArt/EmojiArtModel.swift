@@ -8,7 +8,7 @@
 import Foundation
 
 struct EmojiArtModel {
-    var background: Background.blank
+    var background = Background.blank
     var emojis = [Emoji]()
     
     struct Emoji: Identifiable, Hashable {
@@ -35,5 +35,5 @@ struct EmojiArtModel {
         emojis.append(Emoji(text: text, x: location.x, y: location.y, size: size, id: uniqueEmojiId))
     }
     
-    
 }
+
